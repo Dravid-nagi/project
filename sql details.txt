@@ -1,0 +1,13 @@
+database name : quiz
+
+table name : users 
+
+query :
+
+create table users
+(
+id int(255) auto_increment not null primary key,
+name varchar(255) not null,
+password varchar(255) not null
+
+);
